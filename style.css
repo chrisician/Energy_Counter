@@ -37,6 +37,8 @@ body {
     background: linear-gradient(135deg, #71b7e6, #9b59b6);
 }
 
+
+
 form .energy {
     height: 45px;
     margin: 10px 0;
@@ -60,6 +62,33 @@ form .energy input:hover {
     /* transform: scale(0.99); */
     background: linear-gradient(-135deg, #71b7e6, #9b59b6);
 }
+
+
+
+form .next {
+    height: 45px;
+    margin: 10px 0;
+    text-align: center;
+}
+form .next input {
+    height: 100%;
+    width: 50%;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+form .next input:hover {
+    /* transform: scale(0.99); */
+    background: linear-gradient(-135deg, #71b7e6, #9b59b6);
+}
+
 
 
 form .start-over {
@@ -86,6 +115,7 @@ form .start-over input:hover {
     background: linear-gradient(-135deg, #71b7e6, #9b59b6);
 }
 
+
 .footer{
     clear: both;
     color:gray; 
@@ -93,6 +123,9 @@ form .start-over input:hover {
     margin-top: 40px;
     text-align: center;
 }
+
+
+
 
 .content form .content-details {
     display: flex;
@@ -141,17 +174,46 @@ form .button input:hover {
     form .start-over {
         height: 45px;
         width: 100px;
-        margin: 10px 0;
-        float: left;
+        float: center;
     }
     
 .content-details::-webkit-scrollbar {
     width: 5px;
 }
-
+}
 @media (max-width: 459px) {
     .container .content .category {
         flex-direction: column;
     }
 }
+@media (max-width: 295px) {
+    
+    #energy{
+        margin: 0;
+    }
+
+    #plus_button, #minus_button {
+        margin: 0;
+    }
+    #next {
+        letter-spacing: none;
+        font-size: 15px;
+        width: 100%;
+        margin: 0;
+    }
+    #start_over{
+        width: 100%;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+}
+@media (max-width: 190px) {
+    .title{
+        font-size: 20px !important; 
+    }
+    #plus_button, #minus_button {
+        width: 40%;
+        margin: 0;
+    }
 }
