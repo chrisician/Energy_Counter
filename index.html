@@ -91,7 +91,10 @@
 
 <SCRIPT language=JavaScript>
 
-function rtclickcheck(keyp){ if (navigator.appName == "Netscape" && keyp.which == 3){ return false; }
+
+var message = "nope";
+
+function rtclickcheck(keyp){ if (navigator.appName == "Netscape" && keyp.which == 3){return false; }
 
 if (navigator.appVersion.indexOf("MSIE") != -1 && event.button == 2) { return false; } }
 
