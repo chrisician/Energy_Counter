@@ -94,13 +94,13 @@ form .start-over input:hover {
     text-align: center;
 }
 
-.content form .user-details {
+.content form .content-details {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 20px 0 12px 0;
 }
-form .user-details .input-box {
+form .content-details .input-box {
     margin-bottom: 5px;
     width: calc(100% / 2 - 20px);
 }
@@ -145,7 +145,7 @@ form .button input:hover {
         float: left;
     }
     
-.user-details::-webkit-scrollbar {
+.content-details::-webkit-scrollbar {
     width: 5px;
 }
 
