@@ -216,4 +216,15 @@ form .button input:hover {
         width: 40%;
         margin: 0;
     }
+    #next, #start_over {
+        font-size: 13px;
+    }
+}
+@media (max-width: 160px) {
+    #plus_button, #minus_button {
+        width: 45%;
+    }
+    #next, #start_over {
+        font-size: 10px;
+    }
 }
